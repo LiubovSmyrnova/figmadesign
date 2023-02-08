@@ -1,24 +1,102 @@
-.container {
+.flex-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 1400px;
-    height: 3843px;
-    background: #FFFFFF;
-    margin: auto;
-}
-.navigation {
-    justify-content: flex-start;
-    align-items: center;
-    width: 1400px;
-    height: 78px;
-    background-color: aqua;
-}
-.logo {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    height: 100vh;
+  }
+  
+  .flex10 {
+    display: flex;
+    width: 10vw;
+    background: #ffffff;
+  }
+  .flex80 {
+    display: flex;
+    width: 80vw;
+    background: #ffffff;
+  }
+  
+  .navigation {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      background: #ffffff;
+      width: 100%;
+      height: 78px;
+      margin-top: 20px;
+  }
+  .logo {
+  
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+        left: 143.92px;
+      top: 22px;
+  
+  }
+  
+  .navbars {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      height: 28px;
+  }
+  .linavbars {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    float: left;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    
+    color: #2F281E;
+  }
+  
+  .button2 {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 110px;
+  height: 46px;
+  border: 0px;
+  background: #FF9900;
+  border-radius: 4px;
+  margin-bottom: 20px; 
+  margin-left: 20px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.button {
+    width: 110px;
+    height: 46px;
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }

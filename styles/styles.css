@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    width: 1400px;
+    height: 3843px;
+    background: #FFFFFF;
+}
+.navigation {
+    justify-content: flex-start;
+    align-items: center;
+    width: 1400px;
+    height: 78px;
+    color: beige;
+}

@@ -181,10 +181,11 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .feature {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     width: 2211px;
     height: 543px;
+
 }
 .secondtheme {
     text-align: center;
@@ -204,12 +205,24 @@ height: 204px;
 }
 .boxesname {
     font-family: 'Poppins';
-font-weight: 600;
-font-size: 22px;
-line-height: 33px;
-color: #2F281E;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
 }
 .firstbox {
+    width: 2470px;
+    height: 178px;
+}
+.secondbox {
+    width: 2470px;
+    height: 178px;
+}
+.thirdbox {
+    width: 2470px;
+    height: 178px;
+}
+.fourthbox {
     width: 2470px;
     height: 178px;
 }
@@ -220,9 +233,49 @@ color: #2F281E;
     line-height: 26px;
     color: #544837;
 }
+.signupnowbutton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 .signupnow {
     background: #FF9900;
 border-radius: 4px;
 width: 175px;
 height: 53px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.square1 {
+    width: 50px;
+    height: 50px;
+    background: #7752BE;
+border-radius: 19px;
+filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+}
+.square2 {
+    width: 50px;
+    height: 50px;
+    background: #FAB005;
+    border-radius: 19px;
+filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+}
+.square3 {
+    width: 50px;
+    height: 50px;
+    background: #F03E3D;
+    border-radius: 19px;
+filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+}
+.square4 {
+    width: 50px;
+    height: 50px;
+    background: #4DADF7;
+    border-radius: 19px;
+filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
 }

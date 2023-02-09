@@ -200,6 +200,7 @@ color: #2F281E;
 }
 .boxes {
     display: flex;
+    justify-content: space-between;
     width: 1095px;
 height: 204px;
 }
@@ -211,19 +212,19 @@ height: 204px;
     color: #2F281E;
 }
 .firstbox {
-    width: 2470px;
+    width: 240px;
     height: 178px;
 }
 .secondbox {
-    width: 2470px;
+    width: 240px;
     height: 178px;
 }
 .thirdbox {
-    width: 2470px;
+    width: 240px;
     height: 178px;
 }
 .fourthbox {
-    width: 2470px;
+    width: 240px;
     height: 178px;
 }
 .description {
@@ -236,10 +237,12 @@ height: 204px;
 .signupnowbutton {
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
+    width: 100vw;
+    margin-top: 20px;
 }
 .signupnow {
+
     background: #FF9900;
 border-radius: 4px;
 width: 175px;
@@ -250,6 +253,8 @@ font-weight: 700;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
+border: none;
+margin-bottom: 150px;
 }
 .square1 {
     width: 50px;
@@ -278,4 +283,36 @@ filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
     background: #4DADF7;
     border-radius: 19px;
 filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
+}
+.topic2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+.theme2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+.text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.midtopic {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #2F281E;
 }

@@ -5,7 +5,7 @@
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    height: 100vh;
+    height: 100%;
   }
   .flex10 {
     display: flex;
@@ -121,7 +121,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 40%;
 }
 .image {
     display: flex;
@@ -285,12 +285,14 @@ filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
 filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.5));
 }
 .topic2 {
+    width: 50%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #544837;
+    margin-right: 100px;
 }
 .theme2 {
     font-family: 'Poppins';
@@ -315,4 +317,16 @@ font-weight: 700;
 font-size: 16px;
 line-height: 26px;
 color: #2F281E;
+}
+.image2 {
+    display: flex;
+    width: 60%;
+}
+.secondpage {
+    display: flex;
+    width: 1126px;
+    height: 496px;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }

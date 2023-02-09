@@ -104,6 +104,10 @@
 border-radius: 4px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.feature {
+    display: flex;
+    
+}
 .firstpage {
     display: flex;
     width: 1126px;
@@ -132,7 +136,6 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 44px;
     line-height: 54px;
     color: #2F281E;
-
 }
 .text1 {
     width: 458px;
@@ -178,10 +181,12 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .feature {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2211px;
-height: 543px;
+    height: 543px;
 }
-.wedesign {
+.secondtheme {
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -197,7 +202,6 @@ color: #2F281E;
 height: 204px;
 }
 .boxesname {
-    height: 33px;
     font-family: 'Poppins';
 font-weight: 600;
 font-size: 22px;
@@ -208,12 +212,6 @@ color: #2F281E;
     width: 2470px;
     height: 178px;
 }
-i {
-    width: 51px;
-    height: 50px;
-    background: #7752BE;
-border-radius: 19px;
-}
 .description {
     font-family: 'Poppins';
     font-weight: 500;
@@ -221,17 +219,4 @@ border-radius: 19px;
     line-height: 26px;
     color: #544837;
 
-}
-.signupnow {
-    width: 175px;
-    height: 53px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #FF9900;
-    background-color: #FFFFFF;
-    border: 0cm;
 }
